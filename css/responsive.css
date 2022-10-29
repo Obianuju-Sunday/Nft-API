@@ -1,0 +1,243 @@
+@media (max-width: 991px) {
+    header{
+        width: 100%;
+        padding: 1rem;
+        display: grid;
+        position: absolute;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header .fa-bars {
+        display: block;
+        position: fixed;
+        height: 2rem;
+        width: 2rem;
+        background: #7b61ff;
+        text-align: center;
+        padding-top: .5rem;
+        border-radius: 50px;
+        left: 90%;
+    }
+    nav{
+        display: block;
+    }
+    .vec{
+        display: none;
+    }
+    .nav-links{
+        position: fixed;
+        background: #7b61ff;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        bottom: 0;
+        left:   -200px;
+        text-align: right;
+        z-index: 3;
+        padding: 3rem 1rem;
+        transition: 1s;
+    }
+    .nav-links .fa-xmark{
+        display: block;
+    }
+    .nav-links ul{
+        display: block;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .nav-links ul li{
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .in input{
+        width: 50vw;
+        margin-left: -8rem;
+    }
+    .nav-links ul .fa-user {
+        border: 2px solid #fff;
+        height: 2.3rem;
+        width: 2.3rem;
+        padding-top: .5rem;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 2rem;
+    }
+    nav .fa-magnifying-glass{
+        position: relative;
+        color: #a4a6ae;
+        font-size: 1.4rem;
+        top: .3rem;
+        right: 50%;
+    }
+    .section1{
+        margin-top: 7rem;
+        padding: 3rem 1rem;
+    }
+    .top h1{
+        font-size: 25px;
+    }
+    .mg{
+        display: none;
+    }
+    .vectors{
+        display: none;
+    }
+    .btns{
+        display: grid;
+    }
+    .btn1, .btn2{
+        width: 75vw;
+    }
+    .section2{
+        padding: 3rem 1rem;
+    }
+    .top0 h1{
+        font-size: 28px;
+    }
+    .section2{
+        padding: 3rem 1rem;
+    }
+    .auctions{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1.5rem;
+    }
+    .aux{
+        width: 100%;
+    }
+    .aux-vectors{
+        display: none;
+    }
+    .section3{
+        padding: 3rem 1rem;
+    }
+    .top1{
+        display: grid;
+    }
+    .top1 h1{
+        font-size: 28px;
+    }
+    .top-1 h1{
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    .btnx{
+        display: block;
+        margin-top: 3rem;
+    }
+    .btnx-1{
+        display: block;
+        width: 5px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .select::after{
+        margin-top: -17%;
+    }
+    select{
+        width: 75vw;
+        margin-bottom: 1rem;
+    }
+    .collect{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section4{
+        padding: 3rem 1rem;
+    }
+    .trend{
+        display: flex;
+        gap: 1rem;
+        overflow-y: scroll;
+    }
+    .trend li{
+        width: 45vw;
+    }
+    .sec4v{
+        display: none;
+    }
+    .disc{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+    .dic-box{
+        width: 100%;
+        overflow: hidden;
+    }
+    .dic-box img{
+        width: 100%;
+    }
+    .section5{
+        padding: 3rem 1rem;
+    }
+    .top2 h1{
+        font-size: 28px;
+    }
+    .cate{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gory{
+        width: 100%;
+    }
+    .gory img{
+        width: 100%;
+    }
+    .section6{
+        padding: 3rem 1rem;
+    }
+    .top3 h1{
+        font-size: 28px;
+    }
+    .create{
+        margin-top: 2rem;
+        padding: 1.5rem;
+        display: grid;
+        text-align: center;
+    }
+    .nft{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .section7{
+        padding: 3rem 1rem;
+    }
+    .resource{
+        margin-top: 2rem;
+        display: grid;
+        gap: 3rem;
+    }
+    .resos{
+        width: 100%;
+    }
+    .resos img{
+        width: 100%;
+    }
+    .resos h3{
+        font-size: 25px;
+    }
+    .rce h5{
+        width: 20vw;
+    }
+    .rce h4{
+        width: 25vw;
+    }
+    .section8{
+        padding: 3rem 1rem;
+    }
+    footer{
+        padding: 2rem 1rem;
+    }
+    .foot{
+        display: grid;
+    }
+    .foot1{
+        width: 100%;
+    }
+    .inn input{
+        width: 70%;
+    }
+}

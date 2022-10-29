@@ -1,0 +1,49 @@
+.vectors img:nth-child(1){
+    position: absolute;
+    top: 32%;
+}
+.vectors img:nth-child(2){
+    position: absolute;
+    top: 30%;
+    left: 89%;
+}
+.vectors img:nth-child(3){
+    position: absolute;
+    top: 82%;
+    left: 18%;
+}
+.vectors img:nth-child(4){
+    position: absolute;
+    top: 97%;
+    left: 50%;
+}
+.vectors img:nth-child(5){
+    position: absolute;
+    top: 78%;
+    right: 18%;
+}
+.aux-vectors img:nth-child(1){
+    position: absolute;
+    right: 1%;
+    margin-top: 7%;
+}
+.aux-vectors img:nth-child(2){
+    position: absolute;
+    left: 1%;
+    margin-top: 50%;
+}
+.vec{
+    position: absolute;
+    left: 96%;
+    top: 369%;
+}
+.sec4v img:nth-child(1){
+    position: absolute;
+    left: 1%;
+    margin-top: 10%;
+}
+.sec4v img:nth-child(2){
+    position: absolute;
+    right: 1%;
+    margin-top: 43%;
+}
